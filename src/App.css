@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+    color: white;
+}
+
+.meme-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.memeLOGO {
+    height: 90px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    padding: 6px 33px;
+    width: 100%;
+}
+
+.navbar h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffbd00;
+}
+
+.app-container {
+    max-width: 450px;
+    height: auto;
+    background-color: black;
+    margin: 30px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 18px 0px;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 9px;
+    font-size: 15px;
+    border-radius: 9px;
+    width: 180px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    margin: 9px 6px;
+}
+
+::placeholder {
+    color: black;
+}
+
+input:focus {
+    outline: 2px solid #ffbd08;
+    color: black;
+}
+
+.generateBTN {
+    margin: 12px auto;
+    padding: 9px;
+    padding: 12px 9px;
+    color: black;
+    font-weight: bold;
+    border-radius: 9px;
+    background-color: #ffbd08;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.generateBTN.active {
+    background-color: #ffcd45;
+}
+
+
+.imgMEME {
+    max-width: 315px;
+    
+    border-radius: 9px;
+    border: 2px solid white;
+    
+}
+
